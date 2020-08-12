@@ -99,6 +99,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Comp
         mClient.setReconnectEnable(true);//开启自动重连
         mClient.setAdjustBitEnable(true);
         mClient.setOnRtmpPublishListener(mRtmpPublishListener);
+        mClient.setUseSoft(true);//软解
         initUrl();
         // check permission for 6.0+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
