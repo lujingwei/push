@@ -1,0 +1,1 @@
+include ':app', ':uppush', ':magicfilter', ':magicfilterdemo', ':libspeex'
