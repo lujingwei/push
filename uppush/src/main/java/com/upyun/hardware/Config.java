@@ -56,9 +56,9 @@ public class Config {
         boolean useSoftEncode;
 
         public Builder() {
-//            url = "rtmp://124.71.109.32:1935/live/626533";
-            bitRate = 60000000;
-            fps = 100;
+//            url = "rtmp://47.112.122.123:1935/live/626533";
+            bitRate = 500000;
+            fps = 20;
             cameraType = Camera.CameraInfo.CAMERA_FACING_BACK;
             resolution = Resolution.HIGH;
             orientation = Orientation.VERTICAL;
